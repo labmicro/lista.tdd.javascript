@@ -14,7 +14,12 @@ const Lista = require("../src/lista.js");
 
 describe("en una lista vacia" , function() {
     var lista = new Lista();
+
     it("hay cero elementos", function() {
         assert.equal(lista.count(), 0);
+    })
+
+    it("no se encuentra ninguna clave", function() {
+        assert.isNaN(lista.find("clave"));
     })
 })
