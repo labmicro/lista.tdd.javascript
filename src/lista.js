@@ -9,5 +9,8 @@ module.exports = class Lista {
     find() {
         return NaN;
     }
+
+    add(clave, valor) {
+    }
 };
 
