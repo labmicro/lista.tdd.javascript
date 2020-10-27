@@ -8,3 +8,11 @@
  * Cuando se agrega un elemento al principio la lista de claves esta ordenada.
  * Cuando se agrega un elemento al final la lista de claves esta ordenada.
  */
+
+const assert = require("chai").assert;
+
+describe("en una lista vacia" , function() {
+    it("hay cero elementos", function() {
+        assert.fail("empezamos");
+    })
+})
