@@ -10,6 +10,9 @@ module.exports = class Lista {
     }
 
     find() {
+        if (this.#elementos.length == 1) {
+            return this.#elementos[0].valor;
+        }
         return NaN;
     }
 
